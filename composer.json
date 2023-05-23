@@ -1,0 +1,32 @@
+{
+    "name": "safepartner/yii2-tfa",
+    "description": "Two-factor authentication for Yii2 projects",
+    "keywords": ["yii2", "authentication", "multi-factor", "two-factor", "tfa", "mfa"],
+    "homepage": "https://gitlab.com/sp-yii2/yii2-tfa",
+    "type": "yii2-extension",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sergey Mazurenko",
+            "email": "zerg3000@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": "~2.0.14"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "<7"
+    },   
+    "autoload": {
+        "psr-4": {
+            "safepartner\\tfa\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "safepartner\\tfa\\tests\\": "tests"
+        }
+    }
+}
